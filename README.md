@@ -25,3 +25,7 @@ App URL: [HNGi7 Central Leaderboard](http://cephas.com.ng/leaderboard/).
 ## Author
 
 * [Alabi Tosin](https://github.com/alatos2)
+
+Hosted URL: http://cephas.com.ng/leaderboard/index.php
+Github URL: https://github.com/alatos2/HNGi7-Central-Leaderboard-PHP
+Lucid URL: https://lucid.blog/alabitosin58/post/hngi7-central-leaderboard-1fa

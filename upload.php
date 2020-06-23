@@ -35,14 +35,16 @@
 <body>
     <div class="container">
         <h3>Upload JSON File</h3>
-        <p>* Note: You can onlu upload json file | <a href="index.php"><< Back</a></p>
+        <p>* Note: You can only upload json file | <a href="index.php"><< Back</a></p>
         <hr>
         <div class="wrapper">
         <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post" enctype="multipart/form-data">
             <label>Upload JSON File:</label>
             <input type="file" name="fileToUpload"  id="fileToUpload" required class="form-control" accept=".json"><br>
             <input type="submit" class="btn btn-success" value="Upload">
+
         </form>
-    </div>
+    </div> <br>
+    <p style="color: red;">Kindly ensure that your JSON FILE is named <b>board.json</b></p>
     </div>
 </html>

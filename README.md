@@ -9,8 +9,7 @@
 
 ## Application URL
 
-Application was deployed to Heroku.
-App URL: [HNGi7 Central Leaderboard](https://hngi7leaderboard.herokuapp.com/getboard).
+App URL: [HNGi7 Central Leaderboard](http://cephas.com.ng/leaderboard/).
 
 ## Technologies Used
 

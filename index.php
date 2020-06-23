@@ -26,6 +26,8 @@
     <title>Leaderboard</title>
 </head>
 <body>
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v7.0" nonce="VUck977Q"></script>
     <div class="container">
     <h2>HNGi7 Central Leaderboard (Sorted)</h2>
     <p style="text-align:center"><a href="upload.php">Upload file in json format</a></p>
@@ -33,6 +35,7 @@
     <table class="table">
         <thead>
             <tr>
+                <th>S/N</th>
                 <th>Full Name</th>
                 <th>Username</th>
                 <th>Email</th>
@@ -41,13 +44,16 @@
         </thead>
         <tbody>
           <?php
+            $i = 1;
             foreach ($boards as $board_name => $board_val) {
                 echo '<tr>';
+                // $msg = 'I scored ' . $board_val['points'] . 'points in HNGi7';
+                echo '<td>'. $i++ . '</td>';
                 echo '<td><b>' . $board_val['fullname'] . '</b></td>';
                 echo '<td>' . $board_val['username'] . '</td>';
                 echo '<td>' . $board_val['email'] . '</td>';
                 echo '<td>' . $board_val['points'] . '</td>';
-                echo '<td><a href="#">share position on facebook</a></td>';
+                echo '<td><div class="fb-share-button" data-href="http://cephas.com.ng/leaderboard/index.php" data-layout="button" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fcephas.com.ng%2Fleaderboard%2Findex.php&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div></td>';
                 echo '</tr>';
             }
           ?>

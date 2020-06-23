@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+    color: white;
+}
+.top3 {
+    color: #276535;
+    background-color: #D4EDDA;
+}
+
+.otherRows {
+    color: #721C24;
+    background-color: #F8D7DA;
+}
+
+h2 {
+    text-align: center;
+}
+
+.wrapper {
+    width: 300px;
+}

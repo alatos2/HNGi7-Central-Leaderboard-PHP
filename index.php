@@ -30,7 +30,10 @@
   <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v7.0" nonce="VUck977Q"></script>
     <div class="container">
     <h2>HNGi7 Central Leaderboard (Sorted)</h2>
-    <p style="text-align:center"><a href="upload.php">Upload file in json format</a></p>
+    <p style="text-align:center; background: white; padding: 5px; font-size: 18px">
+      <a href="upload.php">Click here to upload file in json format
+      </a>
+    </p>
     <hr>
     <table class="table">
         <thead>
